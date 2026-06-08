@@ -72,6 +72,7 @@ export default function AdminLogin() {
                 autoComplete="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                placeholder="admin@example.com"
                 required
               />
             </div>
@@ -90,6 +91,7 @@ export default function AdminLogin() {
                   autoComplete="current-password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Enter your password"
                   required
                 />
                 <button
